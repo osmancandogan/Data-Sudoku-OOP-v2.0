@@ -4,7 +4,8 @@ public class Sudoku {
     public static void main(String[] args) {
         System.out.println("Welcome to Sudoku Game...\n"+
                 " C: creates a new game\n"+
-                " S: solve the last generated name");
+                " S: solve the last generated name \n"+
+                " Q: Exit");
 
         Scanner scanner = new Scanner(System.in);
         String command = scanner.next();
